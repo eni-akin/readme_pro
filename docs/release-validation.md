@@ -29,6 +29,17 @@ The final six-case pass loaded that isolated profile's enabled plugin configurat
 
 An initial network-restricted attempt could not connect to Codex. It was stopped before rerunning with approved network access. A preliminary source-focused run reported its unavailable build/socket checks; the final pass used the enabled isolated configuration, available Python runtime, and local-network access. All six final sessions completed successfully.
 
+## Public GitHub acceptance
+
+After the package/catalog push, a second fresh Codex state successfully ran:
+
+```sh
+codex plugin marketplace add eni-akin/readme_pro
+codex plugin add readme-pro@eni-akin
+```
+
+The CLI reported version 0.1.0 installed and enabled from the Git-backed marketplace. The installed manifest, icon, skill, and all three references matched the checked source bytes. Exactly one skill was present. All four listing URLs were fetched without authentication and served the expected public project, issue tracker, privacy, and terms content.
+
 ## Release artifact
 
 File: `readme-pro-0.1.0.zip`
