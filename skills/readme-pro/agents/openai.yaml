@@ -1,0 +1,4 @@
+interface:
+  display_name: "README Pro"
+  short_description: "Create polished READMEs grounded in the repository"
+  default_prompt: "Use $readme-pro to inspect this repository and create or improve its README for its intended readers."
