@@ -32,7 +32,7 @@ codex plugin add readme-pro@eni-akin
 
 Start a new Codex chat and ask it to use README Pro. Plugin registration and installation are tested with Codex CLI 0.159.0. No publisher account, API key, or server is required by the plugin. Codex itself requires its normal account and permissions.
 
-The GitHub marketplace is separate from the official OpenAI directory. The official listing is **not yet published**; publisher verification, portal scans, review, and approval remain pending. See [release and submission instructions](docs/releasing.md).
+README Pro is currently distributed through the GitHub-backed Codex marketplace only. Submission to the official OpenAI directory is **deferred** at the maintainer's request; README Pro is not listed or approved there. There is no scheduled directory submission. See the [release guide](docs/releasing.md).
 
 ### Manual skill installation
 

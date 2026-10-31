@@ -2,6 +2,8 @@
 
 Validated October 31, 2026 with Codex CLI 0.159.0. These checks cover the portable plugin and Codex installation. They do not establish OpenAI publisher verification, portal scans, approval, or official publication.
 
+Distribution status, October 31, 2026: the GitHub-backed Codex marketplace and GitHub release are public. The maintainer has deferred official OpenAI directory submission. No official directory draft, approval, or publication has been completed for this release; those steps are outside the current rollout.
+
 ## Packaging and presentation
 
 - Root manifest passed the official Agent Plugins 1.0.0 JSON schema.

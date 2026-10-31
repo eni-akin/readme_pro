@@ -1,6 +1,6 @@
-# Release and OpenAI submission
+# Releases and distribution
 
-README Pro has two distribution channels: the GitHub-backed Codex marketplace and the shared OpenAI directory. A GitHub release does not create or update an official listing.
+README Pro is currently distributed through the GitHub-backed Codex marketplace only. Official OpenAI directory submission is deferred at the maintainer's request as of October 31, 2026, with no scheduled submission. No official directory draft, approval, or publication has been completed for this release. A GitHub release does not create or update an official listing.
 
 ## Build and check
 
@@ -33,7 +33,9 @@ Check the installed version and skill inventory, then begin a new chat to exerci
 
 Commit the validated package and documentation, push, then publish a matching version tag and GitHub release with the ZIP, checksum, release notes, and tested Codex version. Record the source commit in the release notes. Verify downloads against the published SHA-256 file.
 
-## Official OpenAI directory
+## Official OpenAI directory (deferred)
+
+The following procedure is retained for future reference. Do not resume publisher onboarding, add billing details, upload a draft, or submit for review unless the maintainer explicitly requests resuming this rollout. The prepared manifest, icon, and ZIP remain available; retaining them does not indicate an active submission.
 
 Publisher: Eniola Akinpelumi. Initial release: 0.1.0, free, English, Developer Tools, without publisher-imposed country restrictions. The directory is shared with ChatGPT, with Codex as this project's tested workflow.
 
@@ -49,4 +51,6 @@ Follow the current [submission guide](https://developers.openai.com/plugins/depl
 
 ## Updates
 
-Increment the semantic version, update release notes, rerun affected checks, and publish matching GitHub artifacts. To update the official listing, upload a complete new ZIP to the existing plugin, resolve its checks/review, and publish the approved package version. Changes pushed to GitHub do not update the official directory automatically. Never replace a previously published archive under the same version.
+Current releases go to GitHub only. Increment the semantic version, update release notes, rerun affected checks, and publish matching GitHub artifacts. Never replace a previously published archive under the same version.
+
+If an official directory listing is pursued and published later, its updates will require a complete new ZIP uploaded to that existing plugin, applicable checks/review, and publication of the approved version. Changes pushed to GitHub do not update the official directory automatically.
