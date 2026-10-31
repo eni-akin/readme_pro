@@ -1,5 +1,7 @@
 # Validation record
 
+For the plugin package and installed-plugin checks, see [0.1.0 release validation](release-validation.md). The original record below covers standalone skill authoring.
+
 Validated on October 31, 2026. This records observed checks for the initial package, not a guarantee across all projects or agents.
 
 ## Package checks

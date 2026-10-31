@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "readme-pro",
+  "version": "0.1.0",
+  "description": "Create, improve, and review professional project READMEs grounded in repository evidence.",
+  "author": { "name": "Eniola Akinpelumi", "url": "https://github.com/eni-akin" },
+  "homepage": "https://github.com/eni-akin/readme_pro",
+  "repository": "https://github.com/eni-akin/readme_pro",
+  "license": "MIT",
+  "keywords": ["readme", "documentation", "developer-tools"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "README Pro",
+        "shortDescription": "Professional project READMEs",
+        "longDescription": "Create, improve, or review a project README using evidence from the repository. README Pro guides the agent to inspect relevant source, manifests, examples, tests, documentation, and assets; choose content for the project type and intended reader; and explain how to reach the first useful result. It supports applications, CLIs, libraries, APIs, AI/ML, data analysis, educational projects, and monorepos. It preserves useful existing content and attribution, respects targeted edits and review-only requests, and checks commands, links, factual claims, and presentation to the extent the environment permits. The agent reports missing evidence and unverified work instead of inventing features, metrics, screenshots, licenses, or ownership. Designed and tested for Codex repository workflows. Free and MIT licensed; no publisher-operated server or account is required.",
+        "developerName": "Eniola Akinpelumi",
+        "category": "Developer Tools",
+        "capabilities": ["Create project READMEs", "Improve existing READMEs", "Review README accuracy without editing"],
+        "defaultPrompt": [
+          "Create a README for this repository.",
+          "Improve this project's README for developers evaluating it.",
+          "Review this README for accuracy and usability without editing files."
+        ],
+        "websiteURL": "https://github.com/eni-akin/readme_pro",
+        "supportURL": "https://github.com/eni-akin/readme_pro/issues",
+        "privacyPolicyURL": "https://github.com/eni-akin/readme_pro/blob/main/docs/privacy.md",
+        "termsOfServiceURL": "https://github.com/eni-akin/readme_pro/blob/main/docs/terms.md",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      },
+      "review": {
+        "commerce": false,
+        "prompts": [
+          "Create a README for a small CLI repository with no existing documentation.",
+          "Improve an outdated README using the current implementation and configuration.",
+          "Review README.md for unsupported claims without editing repository files."
+        ]
+      },
+      "publication": {
+        "countries": [],
+        "release_notes": "Initial README Pro release: repository-backed README creation, improvement, and review; project-specific priorities; presentation guidance; and verification criteria. Free, MIT-licensed, skills-only package."
+      }
+    }
+  }
+}

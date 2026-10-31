@@ -1,5 +1,7 @@
 # README Pro
 
+<img src="assets/icon.png" alt="README Pro document and checkmark icon" width="80" height="80">
+
 An agent skill that turns a repository into a clear, credible, and polished project README.
 
 README Pro helps a coding agent inspect what the project actually does, choose a structure for its readers, show useful proof, and document a path to the first working result. It supports creating a README, improving an existing one, and reviewing one without edits.
@@ -21,16 +23,27 @@ The skill adapts the layout to the project and audience. It preserves useful exi
 
 ### Codex
 
-Clone [this repository](https://github.com/eni-akin/readme_pro), then copy `skills/readme-pro/` into your personal skills directory. Current [Codex documentation](https://learn.chatgpt.com/docs/build-skills) lists `~/.agents/skills/` for user skills and `.agents/skills/` for repository skills. Keep `references/` and `agents/` alongside `SKILL.md`.
+Install the plugin from this repository's Codex marketplace:
 
-For example, on macOS/Linux, from this repository's root:
+```sh
+codex plugin marketplace add eni-akin/readme_pro
+codex plugin add readme-pro@eni-akin
+```
+
+Start a new Codex chat and ask it to use README Pro. Plugin registration and installation are tested with Codex CLI 0.159.0. No publisher account, API key, or server is required by the plugin. Codex itself requires its normal account and permissions.
+
+The GitHub marketplace is separate from the official OpenAI directory. The official listing is **not yet published**; publisher verification, portal scans, review, and approval remain pending. See [release and submission instructions](docs/releasing.md).
+
+### Manual skill installation
+
+You can also clone this repository and copy the standalone skill. Current [Codex documentation](https://learn.chatgpt.com/docs/build-skills) lists `~/.agents/skills/` for user skills. From the repository root on macOS/Linux:
 
 ```sh
 mkdir -p ~/.agents/skills
 cp -R skills/readme-pro ~/.agents/skills/
 ```
 
-The installed entry point should be `~/.agents/skills/readme-pro/SKILL.md`. Check for an existing installation before copying so you can preserve local customizations. Codex detects skill changes automatically; restart it if the skill does not appear. If your environment uses another configured skill location, use that location instead.
+The entry point should be `~/.agents/skills/readme-pro/SKILL.md`; retain the bundled references, UI metadata, and license. Preserve any existing local customizations before copying. Use either the plugin installation or the manual copy to avoid duplicate skill discovery. Codex detects skill changes automatically; restart it if needed.
 
 ### Other skill-capable agents
 
@@ -81,13 +94,27 @@ skills/readme-pro/
     └── verification.md
 ```
 
-The entry point contains the workflow. References supply project-specific priorities, presentation decisions, and verification criteria. There are no required scripts or bundled visual templates.
+The entry point contains the workflow. References supply project-specific priorities, presentation decisions, and verification criteria. The repository also includes a portable plugin manifest, a Codex marketplace catalog, one icon, and release tooling. No runtime scripts, external services, or visual templates are required by the skill.
 
 ## Development and contributions
 
 See [the evaluation guide](docs/evaluation.md) for realistic acceptance cases. Improvements should address observed output problems, keep the entry point concise, and put conditional detail in the relevant reference. Include the request, minimal repository context, observed failure, and evidence that a proposed change fixes it. Remove secrets before sharing fixtures or outputs.
 
 This repository contains the skill source; packaging does not itself establish that every agent or project has been tested. See [validation results](docs/validation.md) for the checks actually performed.
+
+For release development, use Python 3.9 or newer and install the development-only YAML parser:
+
+```sh
+python3 -m pip install -r requirements-dev.txt
+python3 -m unittest discover -s tests -v
+python3 scripts/package_release.py
+```
+
+The last command validates metadata, builds a curated ZIP in `dist/`, checks an extracted copy, and writes a SHA-256 file. It refuses to overwrite an existing archive. The development dependency is not bundled in the plugin.
+
+## Support and privacy
+
+Use [GitHub Issues](https://github.com/eni-akin/readme_pro/issues) for sanitized questions or bug reports. Read the [privacy information](docs/privacy.md) and [terms](docs/terms.md). Do not post credentials or private repository content in public issues.
 
 ## Design references
 
