@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "readme-pro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create, improve, and review professional project READMEs grounded in repository evidence.",
   "author": { "name": "Eniola Akinpelumi", "url": "https://github.com/eni-akin" },
   "homepage": "https://github.com/eni-akin/readme_pro",
@@ -39,7 +39,7 @@
       },
       "publication": {
         "countries": [],
-        "release_notes": "Initial README Pro release: repository-backed README creation, improvement, and review; project-specific priorities; presentation guidance; and verification criteria. Free, MIT-licensed, skills-only package."
+        "release_notes": "Replace the original document-and-checkmark branding with the supplied Sparkle Page logo kit: a violet-and-gold README symbol and a matching violet app icon. README workflows are unchanged."
       }
     }
   }
