@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256"
+     role="img" aria-labelledby="title">
+  <title id="title">README Pro logo</title>
+  <!-- Final symbol — Sparkle Page
+       Page: #7C3AED (violet), fold: #6D28D9 (darker violet), sparkles: #FBBF24 (gold) -->
+
+  <!-- Page body with text-line holes -->
+  <path fill="#7C3AED" fill-rule="evenodd" d="
+    M48 20
+    H168
+    L204 56
+    V228
+    Q204 236 196 236
+    H56
+    Q48 236 48 228
+    Z
+    M76 96 H176 V110 H76 Z
+    M76 126 H160 V140 H76 Z
+    M76 156 H140 V170 H76 Z
+  "/>
+
+  <!-- Folded corner -->
+  <path fill="#6D28D9" d="M168 20 V56 H204 Z"/>
+
+  <!-- Main 4-point sparkle -->
+  <path fill="#FBBF24" d="
+    M216 44
+    L222 64 L242 70 L222 76 L216 96
+    L210 76 L190 70 L210 64
+    Z
+  "/>
+
+  <!-- Small accent sparkle -->
+  <path fill="#FBBF24" d="
+    M240 16
+    L243 28 L254 32 L243 36 L240 48
+    L237 36 L226 32 L237 28
+    Z
+  "/>
+</svg>

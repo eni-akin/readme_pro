@@ -1,6 +1,6 @@
 # README Pro
 
-<img src="assets/icon.png" alt="README Pro document and checkmark icon" width="80" height="80">
+<img src="assets/logo.svg" alt="README Pro violet document with gold sparkles" width="80" height="80">
 
 An agent skill that turns a repository into a clear, credible, and polished project README.
 
@@ -94,7 +94,7 @@ skills/readme-pro/
     └── verification.md
 ```
 
-The entry point contains the workflow. References supply project-specific priorities, presentation decisions, and verification criteria. The repository also includes a portable plugin manifest, a Codex marketplace catalog, one icon, and release tooling. No runtime scripts, external services, or visual templates are required by the skill.
+The entry point contains the workflow. References supply project-specific priorities, presentation decisions, and verification criteria. The repository also includes a portable plugin manifest, a Codex marketplace catalog, [brand assets](assets/README.md), and release tooling. No runtime scripts, external services, or visual templates are required by the skill.
 
 ## Development and contributions
 

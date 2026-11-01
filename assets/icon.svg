@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256"><title>README Pro</title><rect width="256" height="256" rx="57.6" fill="#7C3AED"/><g transform="translate(25.9 37.25) scale(0.709)" fill="#ffffff">
+  <title id="title-small">README Pro logo — small size cut</title>
+  <!-- Simplified for 16-32px: no fold detail, thicker text lines,
+       single sparkle only, bolder proportions -->
+
+  <!-- Page body with fewer, thicker line holes -->
+  <path fill="#ffffff" fill-rule="evenodd" d="
+    M32 16
+    H176
+    L208 48
+    V232
+    Q208 240 200 240
+    H40
+    Q32 240 32 232
+    Z
+    M64 96 H176 V116 H64 Z
+    M64 132 H156 V152 H64 Z
+    M64 168 H132 V188 H64 Z
+  "/>
+
+  <!-- Fold -->
+  <path fill="#ffffff" d="M176 16 V48 H208 Z"/>
+
+  <!-- Single bold sparkle -->
+  <path fill="#ffffff" d="
+    M224 24
+    L232 48 L256 56 L232 64 L224 88
+    L216 64 L192 56 L216 48
+    Z
+  "/>
+</g></svg>
