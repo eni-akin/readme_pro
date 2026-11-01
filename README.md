@@ -32,6 +32,14 @@ codex plugin add readme-pro@eni-akin
 
 Start a new Codex chat and ask it to use README Pro. Plugin registration and installation are tested with Codex CLI 0.159.0. No publisher account, API key, or server is required by the plugin. Codex itself requires its normal account and permissions.
 
+To update an existing GitHub marketplace installation, refresh the marketplace and start a new Codex chat:
+
+```sh
+codex plugin marketplace upgrade eni-akin
+```
+
+The explicit upgrade from 0.1.0 to 0.1.1 was verified in isolated Codex state. Download versioned ZIPs and checksums from [GitHub Releases](https://github.com/eni-akin/readme_pro/releases/latest).
+
 README Pro is currently distributed through the GitHub-backed Codex marketplace only. Submission to the official OpenAI directory is **deferred** at the maintainer's request; README Pro is not listed or approved there. There is no scheduled directory submission. See the [release guide](docs/releasing.md).
 
 ### Manual skill installation

@@ -1,6 +1,6 @@
 # Validation record
 
-For the plugin package and installed-plugin checks, see [0.1.0 release validation](release-validation.md). The original record below covers standalone skill authoring.
+For the current branding release and verified update path, see [0.1.1 release validation](release-validation-0.1.1.md). The [0.1.0 record](release-validation.md) covers the original plugin and installed-workflow checks. The original record below covers standalone skill authoring.
 
 Validated on October 31, 2026. This records observed checks for the initial package, not a guarantee across all projects or agents.
 
