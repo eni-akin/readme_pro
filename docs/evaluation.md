@@ -19,6 +19,12 @@ Use small self-contained fixtures, synthetic values, and no live external mutati
 | Misleading README, review only | Review without editing | Evidence-backed findings, unsupported claims identified, byte-for-byte unchanged input files |
 | Targeted edit | Improve only the quick start | Correct setup instructions, no unrelated heading/branding/content changes |
 
+## Research-derived contrasts
+
+For presentation and structure changes, supplement the original cases with the contrasts in the [general improvement plan](plans/general-readme-pro-improvements.md#next-stage-plan). Use original synthetic fixtures inspired by reader needs, with facts sufficient to choose different routes. The research repositories are design references, not executable test dependencies.
+
+Evaluate centered and text-led openings, verified and absent badge sources, compact and handbook scopes, download and developer routes, optional collapsed detail, and inconsistent counts. Judge whether the route fits the evidence and user request; matching a heading sequence or choosing centered branding is not itself a pass. Check rendered outputs at desktop and narrow widths when available. Record these cases as pending until their artifacts and results exist.
+
 ## Acceptance
 
 The page explains purpose quickly, shows credible project-specific evidence, and gives a supported next action. Commands and factual claims trace to project sources or execution. Applicable prerequisites and consequential limits are visible. Links and assets resolve, prose is scannable, attribution survives, and no unnecessary template sections appear. The handoff accurately distinguishes performed checks from unverified work.

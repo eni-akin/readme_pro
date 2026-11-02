@@ -6,6 +6,7 @@ Use checks proportional to the requested edit. A wording change does not require
 
 - Trace material capability, status, compatibility, ownership, license, and metric claims to implementation, authoritative project files, or explicit user statements.
 - Compare advertised commands against manifests, public exports, help, examples, and tests as applicable. Check names, flags, working directories, configuration names, and startup order.
+- Compare opening claims, displayed counts, version/platform tables, badge labels, screenshots, and linked documentation for agreement, including collapsed content. Qualify differences in scope or date; a differing lower bound or old URL alone does not establish a false claim or broken link.
 - Ensure existing user work, useful warnings, attribution, and necessary links survive the edit.
 - Use placeholders for secrets and synthetic example data. Check changed prose, URLs, logs, and images for exposed private data.
 
@@ -20,7 +21,7 @@ If execution needs unavailable hardware, credentials, downloads, paid services, 
 - Resolve every added or changed relative file/image path from the document's directory and check heading fragments.
 - Check external links when network access is available; distinguish a responding URL from a tested demo or authenticated service. Otherwise report them as unverified.
 - Check heading nesting, code fences, table readability, navigation, badge targets, and image alt text.
-- Inspect a GitHub-compatible rendered preview when available, including images at normal reading width and theme-sensitive graphics in light/dark views. Report source-only review when rendering is unavailable.
+- Inspect a GitHub-compatible rendered preview when available at normal reading width and a narrow viewport, including theme-sensitive graphics in light/dark views. Check wrapping of badge/action rows, table readability, and whether stacked branding or media delays the primary task. Report source-only review and any unavailable viewport/theme checks.
 - Remove scaffold text, empty headings, broken placeholders, duplicated material, and unsupported promotional claims. Credential placeholders inside instructions are intentional and should remain clearly labeled.
 
 ## Reader acceptance

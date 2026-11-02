@@ -12,7 +12,7 @@ Make the project easy to understand, evaluate, and try. Professional means clear
 
 Honor the requested scope: create, improve, or review. A review produces findings without editing. A targeted edit stays targeted. For a general rewrite, preserve valuable facts, acknowledgments, translations, existing anchor links, and branding unless there is a reason to change them.
 
-Identify the primary reader and the action they should take. Infer these from the request and repository when clear; ask only when a missing choice materially changes the result. Work in the repository's existing documentation language unless asked otherwise.
+Identify the primary reader and the action they should take: download, try, integrate, evaluate, reproduce, adapt, or browse. Let that decision determine the page's depth and order, including when a short gateway to existing docs is enough. Infer these from the request and repository when clear; ask only when a missing choice materially changes the result. Work in the repository's existing documentation language unless asked otherwise.
 
 ## 2. Gather evidence
 
